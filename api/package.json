@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api for todo-app",
+  "main": "index.js",
+  "author": "Sw8p",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.6"
+  }
+}
